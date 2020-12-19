@@ -124,11 +124,11 @@ export class RootController {
 
     if (!existsSync(config.uploader.directory)) mkdirSync(config.uploader.directory);
 
-    const ext = data.filename.split('.')[1];
+    const ext = data.mimetype === 'application/octet-stream' ? 'bin' : data.filename.split('.')[1];
     if (config.uploader.blacklisted.includes(ext)) return sendError(reply, 'Blacklisted file extension!');
 
     const fileName = config.uploader.original
-      ? data.filename.split('.')[0]
+      ? data.filename.split('.').pop()
       : createRandomId(config.uploader.length);
     const path = join(config.uploader.directory, `${fileName}.${ext}`);
 

@@ -78,7 +78,7 @@
     "@babel/traverse" "^7.7.4"
     "@babel/types" "^7.7.4"
     convert-source-map "^1.7.0"
-    debug "^4.1.0"
+    debug "2.6.9"
     json5 "^2.1.0"
     lodash "^4.17.13"
     resolve "^1.3.2"
@@ -1045,7 +1045,7 @@
     "@babel/helper-split-export-declaration" "^7.11.0"
     "@babel/parser" "^7.12.5"
     "@babel/types" "^7.12.5"
-    debug "^4.1.0"
+    debug "2.6.9"
     globals "^11.1.0"
     lodash "^4.17.19"
 
@@ -1092,7 +1092,7 @@
   integrity sha512-XRUeBZ5zBWLYgSANMpThFddrZZkEbGHgUdt5UJjZfnlN9BGCiUBrf+nvbRupSjMvqzwnQN0qwCmOxITt1cfywA==
   dependencies:
     ajv "^6.12.4"
-    debug "^4.1.1"
+    debug "2.6.9"
     espree "^7.3.0"
     globals "^12.1.0"
     ignore "^4.0.6"
@@ -1270,7 +1270,7 @@
   dependencies:
     before-after-hook "^1.1.0"
     btoa-lite "^1.0.0"
-    debug "^3.1.0"
+    debug "2.6.9"
     http-proxy-agent "^2.1.0"
     https-proxy-agent "^2.2.0"
     lodash "^4.17.4"
@@ -1374,7 +1374,7 @@
   dependencies:
     "@typescript-eslint/experimental-utils" "4.6.1"
     "@typescript-eslint/scope-manager" "4.6.1"
-    debug "^4.1.1"
+    debug "2.6.9"
     functional-red-black-tree "^1.0.1"
     regexpp "^3.0.0"
     semver "^7.3.2"
@@ -1400,7 +1400,7 @@
     "@typescript-eslint/scope-manager" "4.6.1"
     "@typescript-eslint/types" "4.6.1"
     "@typescript-eslint/typescript-estree" "4.6.1"
-    debug "^4.1.1"
+    debug "2.6.9"
 
 "@typescript-eslint/scope-manager@4.6.1":
   version "4.6.1"
@@ -1422,7 +1422,7 @@
   dependencies:
     "@typescript-eslint/types" "4.6.1"
     "@typescript-eslint/visitor-keys" "4.6.1"
-    debug "^4.1.1"
+    debug "2.6.9"
     globby "^11.0.1"
     is-glob "^4.0.1"
     lodash "^4.17.15"
@@ -1652,7 +1652,7 @@ agent-base@6:
   resolved "https://registry.yarnpkg.com/agent-base/-/agent-base-6.0.2.tgz#49fff58577cfee3f37176feab4c22e00f86d7f77"
   integrity sha512-RZNwNclF7+MS/8bDg70amg32dyeZGZxiDuQmZxKLAlQjr3jGyLx+4Kkk58UO7D2QdgFIQCovuSuZESne6RG6XQ==
   dependencies:
-    debug "4"
+    debug "2.6.9"
 
 aggregate-error@^3.0.0:
   version "3.1.0"
@@ -1938,7 +1938,7 @@ avvio@^7.1.2:
   integrity sha512-KtC63UyZARidAoIV8wXutAZnDIbZcXBqLjTAhZOX+mdMZBQCh5il/15MvCvma1178nhTwvN2D0TOAdiKG1MpUA==
   dependencies:
     archy "^1.0.0"
-    debug "^4.0.0"
+    debug "2.6.9"
     fastq "^1.6.1"
     queue-microtask "^1.1.2"
 
@@ -2983,11 +2983,6 @@ debug@^3.2.6:
   dependencies:
     ms "^2.1.1"
 
-debug@~0.8.1:
-  version "0.8.1"
-  resolved "https://registry.yarnpkg.com/debug/-/debug-0.8.1.tgz#20ff4d26f5e422cb68a1bacbbb61039ad8c1c130"
-  integrity sha1-IP9NJvXkIstoobrLu2EDmtjBwTA=
-
 decamelize@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/decamelize/-/decamelize-1.2.0.tgz#f6534d15148269b20352e7bee26f501f9a191290"
@@ -3489,7 +3484,7 @@ eslint@^7.10.0:
     ajv "^6.10.0"
     chalk "^4.0.0"
     cross-spawn "^7.0.2"
-    debug "^4.0.1"
+    debug "2.6.9"
     doctrine "^3.0.0"
     enquirer "^2.3.5"
     eslint-scope "^5.1.1"
@@ -3593,7 +3588,7 @@ expand-brackets@^2.1.4:
   resolved "https://registry.yarnpkg.com/expand-brackets/-/expand-brackets-2.1.4.tgz#b77735e315ce30f6b6eff0f83b04151a22449622"
   integrity sha1-t3c14xXOMPa27/D4OwQVGiJEliI=
   dependencies:
-    debug "^2.3.3"
+    debug "^2.6.9"
     define-property "^0.2.5"
     extend-shallow "^2.0.1"
     posix-character-classes "^0.1.0"
@@ -4158,7 +4153,7 @@ git-spawned-stream@1.0.0:
   resolved "https://registry.yarnpkg.com/git-spawned-stream/-/git-spawned-stream-1.0.0.tgz#abffaf1dab1bf2a612926d5fed1c9f35ef4e3111"
   integrity sha1-q/+vHasb8qYSkm1f7RyfNe9OMRE=
   dependencies:
-    debug "~0.8.1"
+    debug "2.6.9"
     spawn-to-readstream "~0.1.3"
 
 git-state@4.0.0:
@@ -4441,7 +4436,7 @@ http-proxy-agent@^2.1.0:
   integrity sha512-qwHbBLV7WviBl0rQsOzH6o5lwyOIvwp/BdFnvVxXORldu5TmjFfjzBcWUWS5kWAZhmv+JtiDhSuQCp4sBfbIgg==
   dependencies:
     agent-base "4"
-    debug "3.1.0"
+    debug "2.6.9"
 
 https-browserify@^1.0.0:
   version "1.0.0"
@@ -4454,7 +4449,7 @@ https-proxy-agent@5.0.0:
   integrity sha512-EkYm5BcKUGiduxzSt3Eppko+PiNWNEpa4ySk9vTC6wDsQJW9rHSa+UhGNJoRYp7bz6Ht1eaRIa6QaJqO5rCFbA==
   dependencies:
     agent-base "6"
-    debug "4"
+    debug "2.6.9"
 
 https-proxy-agent@^2.2.0:
   version "2.2.4"
@@ -4462,7 +4457,7 @@ https-proxy-agent@^2.2.0:
   integrity sha512-OmvfoQ53WLjtA9HeYP9RNrWMJzzAz1JGaSFr1nijg0PVR1JaD/xbJq1mdEIIlxGpXp9eSe/O2LgU9DJmTPd0Eg==
   dependencies:
     agent-base "^4.3.0"
-    debug "^3.1.0"
+    debug "2.6.9"
 
 hyphenate-style-name@^1.0.3:
   version "1.0.4"
@@ -5563,7 +5558,7 @@ needle@^2.5.0:
   resolved "https://registry.yarnpkg.com/needle/-/needle-2.5.2.tgz#cf1a8fce382b5a280108bba90a14993c00e4010a"
   integrity sha512-LbRIwS9BfkPvNwNHlsA41Q29kL2L/6VaOJ0qisM5lLWsTV3nP15abO5ITL6L81zqFhzjRKDAYjpcBcwM0AVvLQ==
   dependencies:
-    debug "^3.2.6"
+    debug "2.6.9"
     iconv-lite "^0.4.4"
     sax "^1.2.4"
 
@@ -7274,7 +7269,7 @@ snapdragon@^0.8.1:
   integrity sha512-FtyOnWN/wCHTVXOMwvSv26d+ko5vWlIDD6zoUJ7LW8vh+ZBC8QdljveRP+crNrtBwioEUWy/4dMtbBjA4ioNlg==
   dependencies:
     base "^0.11.1"
-    debug "^2.2.0"
+    debug "2.6.9"
     define-property "^0.2.5"
     extend-shallow "^2.0.1"
     map-cache "^0.2.2"
@@ -7959,7 +7954,7 @@ typeorm@^0.2.21, typeorm@^0.2.28:
     buffer "^5.5.0"
     chalk "^4.1.0"
     cli-highlight "^2.1.4"
-    debug "^4.1.1"
+    debug "2.6.9"
     dotenv "^8.2.0"
     glob "^7.1.6"
     js-yaml "^3.14.0"

@@ -11,7 +11,7 @@
     "clsx": "^1.1.1",
     "copy-to-clipboard": "^3.3.1",
     "crypto-js": "^4.0.0",
-    "fastify": "^3.5.0",
+    "fastify": "^3.29.4",
     "fastify-cookie": "^4.1.0",
     "fastify-cors": "^4.1.0",
     "fastify-decorators": "^3.2.3",
